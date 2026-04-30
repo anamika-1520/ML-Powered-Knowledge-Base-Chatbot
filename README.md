@@ -8,7 +8,7 @@
 An intelligent chatbot for Indian car pricing, resale value estimation, and car knowledge using ML + RAG (Retrieval-Augmented Generation). Predict used-car prices with machine learning or explore car-domain insights with AI-powered knowledge retrieval.
 # HERE IS THE LINK OF THE STREAMLIT APPLICATION 
 (https://ml-powered-knowledge-base-chatbot-hwcrv6c7vqo74pzuyuncds.streamlit.app/)
-# here is demo(youtube) video link -------------------------------
+# here is demo(youtube) video link -
 (https://youtu.be/yWxl5k_fxI4)
 ## ✨ Features
 
