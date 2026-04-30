@@ -1,13 +1,15 @@
 # 🚗 Car Price AI Chatbot-ML-Powered-Knowledge-Base-Chatbot
 
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/your-username/your-app-name)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ml-powered-knowledge-base-chatbot-hwcrv6c7vqo74pzuyuncds.streamlit.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/)
 
 An intelligent chatbot for Indian car pricing, resale value estimation, and car knowledge using ML + RAG (Retrieval-Augmented Generation). Predict used-car prices with machine learning or explore car-domain insights with AI-powered knowledge retrieval.
 # HERE IS THE LINK OF THE STREAMLIT APPLICATION 
 (https://ml-powered-knowledge-base-chatbot-hwcrv6c7vqo74pzuyuncds.streamlit.app/)
+# here is demo video link -------------------------------
+("https://drive.google.com/file/d/1fCt0gVwoexUZje6QDLpKBpwteuCdExf_/view?usp=drivesdk")
 ## ✨ Features
 
 - **ML Price Prediction**: Estimate used-car prices based on brand, model, year, kilometers, and fuel type.
