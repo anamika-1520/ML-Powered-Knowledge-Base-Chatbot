@@ -95,6 +95,14 @@ Visit `http://localhost:8501` to interact with the chatbot!
 - **Embeddings**: MiniLM-L6-v2 (HuggingFace)
 - **Vector DB**: FAISS for efficient similarity search
 
+### ML Metrics & Evaluation
+The car price prediction model was evaluated using the following metrics:
+
+- **R² Score**: 0.92 (coefficient of determination)
+- **Evaluation Method**: Train-test split with 90% training, 10% testing
+- **Model Selection**: Best random state selected from 1000 iterations to achieve optimal R² score
+- **Preprocessing**: OneHotEncoder for categorical features (name, company, fuel_type), StandardScaler for numerical features (year, kms_driven)
+- **Pipeline**: Scikit-learn Pipeline with ColumnTransformer and LinearRegression
 ## 🌐 Deployment
 
 ### Streamlit Cloud (Recommended)
