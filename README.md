@@ -52,11 +52,14 @@ An intelligent chatbot for Indian car pricing, resale value estimation, and car 
    ```
 
 4. **Set up environment variables**:
-   - Copy `.env.example` to `.env`
-   - Add your Groq API key:
-     ```
+   - Copy `.env.example` to `.env` for local development.
+   - Add your API keys:
+     ```bash
      GROQ_API_KEY=your_groq_api_key_here
+     HUGGINGFACEHUB_ACCESS_TOKEN=your_huggingface_token_here
+     LANGCHAIN_API_KEY=your_langchain_api_key_here
      ```
+   - For Streamlit Cloud, configure these values in the app's Secrets section instead of using `.env`.
 
 5. **Run the app**:
    ```bash

@@ -8,9 +8,17 @@ Run: streamlit run app.py
 """
 
 import html
+import os
 import re
 
 import streamlit as st
+
+# Load Streamlit secrets into environment variables before importing graph.py
+# This ensures LangGraph/Groq can access API keys on Streamlit Cloud.
+for key, value in st.secrets.items():
+    if value and key not in os.environ:
+        os.environ[key] = value
+
 from graph import run_chatbot
 
 # ── Page config ───────────────────────────────────────────────────────────────
